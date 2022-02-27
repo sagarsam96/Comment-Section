@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin: 25%;
+    border: 1px solid gray;
+    margin-bottom: 1px;
+    padding: 1%;
+    color: #1d2129;
+}
+img{
+    width: 10%;
+    padding: 1%;
+}
+.name_timeStamp{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+    margin: 1%;
+    align-items:center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#name{
+    font-size: large;
+    color:black;
+}
+#timeStamp{
+    font-size: smaller;
+    color: gray;
+}
+#comment{
+    margin: 5px;
+    padding: 1%;
+    /* background-color: white; */
+    padding-bottom: 2%;
+    border-bottom: 1px solid gray;
+}
+.like_comment_share{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.like_comment_share:hover{
+    cursor: pointer;
+}
+
+
+.mini_mainBox{
+    display: flex;
+    /* flex-direction: column; */
+    background-color:#e9ebee;;
+    margin: 25%;
+    margin-top: 0%;
+    border: 1px solid gray;
+    align-items: center;
+    padding: 1%;
+}
+
+.mini_mainBox img{
+    width: 25px;
+}
+
+#input_comment{
+    width: 85%;
+    padding:2%;
+}
+
+#btn{
+    padding: 2%;
+    margin: 1%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+#list{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
