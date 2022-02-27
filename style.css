@@ -61,7 +61,7 @@ img{
 .mini_mainBox{
     display: flex;
     /* flex-direction: column; */
-    background-color:#e9ebee;;
+    background-color:#e9ebee;
     margin: 25%;
     margin-top: 0%;
     border: 1px solid gray;
@@ -78,23 +78,42 @@ img{
     padding:2%;
 }
 
-#btn{
-    padding: 2%;
-    margin: 1%;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-}
-#btn:hover{
-    cursor: pointer;
+#Comment:hover, #like:hover, #Share:hover{
+background-color:#e9ebee;
+padding: 1%;
+border-radius: 3px;
+
 }
 
 #list{
     list-style-type: none;
+    position: relative;
+    left: -5px;
+    margin: 2%;
+    border: 1px solid white;
 }
 
+.commentSection{
+    background-color: #e9ebee;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
 
+li{
+    margin: 1%;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    overflow-wrap:break-word;
+    margin-right: 10%;
+    background-color: white;
+    font-size: x-large;
+}
 
+li span{
+    font-size: x-small;
+    color: gray;
+}
 
 
 
