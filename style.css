@@ -1,23 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 10% 30%;
 }
 
 .mainBox{
     display: flex;
     flex-direction: column;
     background-color:white;
-    margin: 25%;
+    margin: 1%;
     border: 1px solid gray;
     margin-bottom: 1px;
     padding: 1%;
     color: #1d2129;
 }
-img{
+
+.mainBox img{
     width: 10%;
-    padding: 1%;
+    min-width: 50px;
 }
+
 .name_timeStamp{
     display: flex;
     /* flex-direction: column; */
@@ -62,20 +68,25 @@ img{
     display: flex;
     /* flex-direction: column; */
     background-color:#e9ebee;
-    margin: 25%;
+    margin: 1%;
     margin-top: 0%;
     border: 1px solid gray;
     align-items: center;
     padding: 1%;
 }
 
+
 .mini_mainBox img{
-    width: 25px;
+    width: 10%;
+    max-width: 50px;
+    min-width: 20px;
+    margin: 1%;
 }
 
 #input_comment{
     width: 85%;
     padding:2%;
+    max-height: 50px;
 }
 
 #Comment:hover, #like:hover, #Share:hover{

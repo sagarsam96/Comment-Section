@@ -8,8 +8,7 @@ console.log(commentSection.style.display);
 const list = document.getElementById("list");
 
 
-const currDate = new Date();
-var currTime = currDate.getHours()%12 + ":" + currDate.getMinutes();
+
 
 
 inputComment.addEventListener("keypress", (e)=>{
@@ -22,6 +21,8 @@ inputComment.addEventListener("keypress", (e)=>{
     listElement.innerText= inputComment.value + " ";
     // const hr = document.createElement("hr");
     // listElement.append(hr);
+    var currDate = new Date();
+    var currTime = currDate.getHours()%12 + ":" + currDate.getMinutes();
     const time = document.createElement("span");
     time.innerText= currTime;
     listElement.appendChild(time);
